@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 1.2rem;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(64, 152, 224),rgb(55, 216, 136));
+  overflow: hidden;/*はみ出た部分を隠す*/
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;/*ブロック要素、横幅指定しないときかない*/
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links li {
+  list-style: none;
+}
+.nav-links ul li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.nav-links ul a{
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;/*hoverしたとき0.3sかけてhoverする*/
+}
+
+.nav-links ul a:hover { /*hoverしたとき*/
+  color: rgb(66, 37, 170);
+}
