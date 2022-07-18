@@ -34,8 +34,8 @@ nav {
 }
 
 .nav-links ul a{
-  font-weight: 400;
-  color: #fff;
+  font-weight: 500;
+  color: rgb(207, 221, 170);
   text-decoration: none;
   transition: 0.3s;/*hoverしたとき0.3sかけてhoverする*/
 }
