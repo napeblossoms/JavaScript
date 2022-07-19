@@ -6,7 +6,7 @@
 
 .main {
   font-family: 'Edu NSW ACT Foundation', cursive;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   width: 100vw;
   height: 100vh;
   background: linear-gradient(to right, rgb(64, 152, 224),rgb(55, 216, 136));
@@ -15,7 +15,7 @@
 
 nav {
   display: flex;
-  width: 80%;
+  width: 75%;
   margin: 20px auto;/*ブロック要素、横幅指定しないときかない*/
   align-items: center;
 }
