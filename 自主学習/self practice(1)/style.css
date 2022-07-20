@@ -43,3 +43,7 @@ nav {
 .nav-links ul a:hover { /*hoverしたとき*/
   color: rgb(130, 177, 76);
 }
+
+.vision {
+  color: rgb(113, 114, 109);
+}
