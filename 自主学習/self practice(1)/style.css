@@ -9,7 +9,7 @@
   font-size: 1.5rem;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to right, rgb(64, 152, 224),rgb(55, 216, 136));
+  background: linear-gradient(to right, rgb(64, 155, 224),rgb(55, 215, 136));
   overflow: hidden;/*はみ出た部分を隠す*/
 }
 
