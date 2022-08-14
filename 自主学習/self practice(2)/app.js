@@ -12,24 +12,26 @@ const question = '好きな季節は？';
 const answers = ['春','夏','秋','冬'];
 const correct = '秋';
 
+const $button = document.getElementsByTagName('button');
+ //質問文
 const setupQuiz = () => {
-  //質問文
   document.getElementById('js-question').textContent = question;
   let buttonIndex = 0;
   let buttonLength = $button.length;
   while(buttonIndex < buttonLength){
     $button[buttonIndex].textContent = answers[buttonIndex];
-    buttonIndex ++;
+    buttonIndex++;
   }
 }
+//定義した関数を呼び出す、関数呼ばないと出てこない
+setupQuiz();
+
 //以下のコードと同等のコードを上に関数として記述
 //質問の中身(HTMLの値を取ってくる場合は頭に＄をつけるのが一般的)
 // $button[0].textContent = answers[0];
 // $button[1].textContent = answers[1];
 // $button[2].textContent = answers[2];
 // $button[3].textContent = answers[3];
-const $button = document.getElementsByTagName('button');
-
 
 
 //ボタンをクリックしたら正誤判定
