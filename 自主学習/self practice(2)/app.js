@@ -33,38 +33,29 @@ setupQuiz();
 // $button[2].textContent = answers[2];
 // $button[3].textContent = answers[3];
 
-
-//ボタンをクリックしたら正誤判定
-//e.targetはそれぞれのbuttonのこと指している
-//答え1
-$button[0].addEventListener('click', (e) => {
+//関数でif文を定義して使いまわせるように
+const clickHandler = (e) => {
   if (correct === e.target.textContent){
     window.alert('正解');
   } else{
     window.alert('不正解');
   }
+;}
+//ボタンをクリックしたら正誤判定
+//e.targetはそれぞれのbuttonのこと指している
+//答え１
+$button[0].addEventListener('click', (e) => {
+  clickHandler(e);
 });
 //答え２
 $button[1].addEventListener('click', (e) => {
-  if (correct === e.target.textContent){
-    window.alert('正解');
-  } else{
-    window.alert('不正解');
-  }
+  clickHandler(e);
 });
 //答え３
 $button[2].addEventListener('click', (e) => {
-  if (correct === e.target.textContent){
-    window.alert('正解');
-  } else{
-    window.alert('不正解');
-  }
+  clickHandler(e);
 });
 //答え４
 $button[3].addEventListener('click', (e) => {
-  if (correct === e.target.textContent){
-    window.alert('正解');
-  } else{
-    window.alert('不正解');
-  }
+  clickHandler(e);
 });
