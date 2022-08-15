@@ -35,33 +35,34 @@ setupQuiz();
 
 
 //ボタンをクリックしたら正誤判定
-//答え１
-$button[0].addEventListener('click', () => {
-  if (correct === $button[0].textContent){
+//e.targetはそれぞれのbuttonのこと指している
+//答え1
+$button[0].addEventListener('click', (e) => {
+  if (correct === e.target.textContent){
     window.alert('正解');
   } else{
     window.alert('不正解');
   }
 });
 //答え２
-$button[1].addEventListener('click', () => {
-  if (correct === $button[1].textContent){
+$button[1].addEventListener('click', (e) => {
+  if (correct === e.target.textContent){
     window.alert('正解');
   } else{
     window.alert('不正解');
   }
 });
 //答え３
-$button[2].addEventListener('click', () => {
-  if (correct === $button[2].textContent){
+$button[2].addEventListener('click', (e) => {
+  if (correct === e.target.textContent){
     window.alert('正解');
   } else{
     window.alert('不正解');
   }
 });
 //答え４
-$button[3].addEventListener('click', () => {
-  if (correct === $button[3].textContent){
+$button[3].addEventListener('click', (e) => {
+  if (correct === e.target.textContent){
     window.alert('正解');
   } else{
     window.alert('不正解');
