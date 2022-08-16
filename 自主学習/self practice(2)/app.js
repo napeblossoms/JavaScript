@@ -1,13 +1,3 @@
-// 変数
-// let greeting = 'Hello World';
-// 定数(上書き×)
-// const
-//配列
-// let -- = ['','',''];
-//ループ文、繰り返し処理
-// let index = 0;
-//オブジェクト複数もてる　プロパティ、キー
-
 const question = '好きな季節は？';
 const answers = ['春','夏','秋','冬'];
 const correct = '秋';
