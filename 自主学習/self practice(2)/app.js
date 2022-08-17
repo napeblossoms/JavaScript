@@ -16,13 +16,6 @@ const setupQuiz = () => {
 //定義した関数を呼び出す、関数呼ばないと出てこない
 setupQuiz();
 
-//以下のコードと同等のコードを上に関数として記述
-//質問の中身(HTMLの値を取ってくる場合は頭に＄をつけるのが一般的)
-// $button[0].textContent = answers[0];
-// $button[1].textContent = answers[1];
-// $button[2].textContent = answers[2];
-// $button[3].textContent = answers[3];
-
 //関数でif文を定義して使いまわせるように
 const clickHandler = (e) => {
   if (correct === e.target.textContent){
