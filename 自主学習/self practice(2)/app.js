@@ -13,7 +13,7 @@ const setupQuiz = () => {
     buttonIndex++;
   }
 }
-//定義した関数を呼び出す、関数呼ばないと出てこない
+
 setupQuiz();
 
 //関数でif文を定義して使いまわせるように
