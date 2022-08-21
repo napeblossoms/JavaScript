@@ -25,7 +25,7 @@ const clickHandler = (e) => {
   }
 ;}
 //ボタンをクリックしたら正誤判定
-//e.targetはそれぞれのbuttonのこと指している
+
 //答え１
 $button[0].addEventListener('click', (e) => {
   clickHandler(e);
